@@ -10,7 +10,7 @@ from collections import namedtuple
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # constants
-REFERENCE_PAGE = "Fix Titles Bot Last Page"
+REFERENCE_PAGE = "File:Fix Titles Bot Last Page"
 PAGES_TO_GO_THROUGH = 25
 title_search = re.compile(r"^(=+)([^=]*)(=+)[ ]?$")
 Title = namedtuple("Title", ["name", "level"])
